@@ -1,0 +1,159 @@
+
+.navbar-default {
+  background-color: #191919;
+  color: #f1f1f1;
+}
+header {
+  background: #e74c3c;     
+}
+
+.home-header {
+  background: url('https://hd.unsplash.com/photo-1457332253637-21d324d25df9');
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+
+hr.star-light:after {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+section.success {
+  background-color: #191919;
+}
+
+  
+ a:hover {
+  color: #FFF!important;
+}
+
+.active {
+  background-color: #c0392b;
+}
+
+.navbar-default {
+ background: #2C3E50;
+}
+
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
+ background: transparent;
+}
+
+.profile-image {
+  border: 2px solid white;
+  height: 239px;
+  max-width: 239px;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+    background: rgba(192,57,43, .6);
+}
+
+section.success {
+  background: #e74c3c;
+}
+
+
+hr.star-primary {
+    border-color: #c0392b;
+}
+/*** PULSE**/
+
+section {
+  margin: 0 auto;
+  text-align: center;
+}
+section:last-child {
+  margin-bottom: 0;
+}
+section a {
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.btn-social .fa {
+  line-height: 45px;
+}
+
+.cmn-t-underline {
+  position: relative;
+  color: #FFF;
+  padding: 10px 40px;
+  background:  transparent;
+  font-weight: 400;
+  font-size: 2em;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 1px #fff solid;
+}
+.cmn-t-underline:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 10px;
+  background-color: #FFF;
+  content: "";
+  transition: width 0.2s;
+}
+.cmn-t-underline:hover {
+  color: #fff;
+}
+.cmn-t-underline:hover:after {
+  width: 100%;
+}
+
+.cmn-t-contact {
+  border: 1px #c0392b solid;
+  color: #c0392b;
+}
+
+.cmn-t-contact:hover {
+  color: #c0392b;
+}
+
+.cmn-t-contact:after {
+  background-color: #c0392b;
+}
+
+.floating-label-form-group-with-value,
+.floating-label-form-group label {
+  color: #c0392b;
+}
+
+
+
+a, a.active, a:active, a:focus, a:hover {
+  color: #c0392b;
+  text-decoration: none;
+}
+
+.active {
+  background-color: transparent;
+}
+
+footer .footer-above {
+  background: #cb2d3e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #cb2d3e , #ef473a); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #cb2d3e , #ef473a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+}
+
+footer .footer-below {
+  background-color: #2C3E50;
+}
+
+
+/** Selector Colors **/
+
+::selection {
+  background: #2C3E50; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #2C3E50; /* Gecko Browsers */
+}
