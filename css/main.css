@@ -42,8 +42,14 @@ hr.star-light:after {
   height: 239px;
   max-width: 239px;
 }
+
+
 #portfolio .portfolio-item .portfolio-link .caption {
     background: rgba(192,57,43, .6);
+}
+
+.portfolio-item {
+  height: 260px;
 }
 
 section.success {
