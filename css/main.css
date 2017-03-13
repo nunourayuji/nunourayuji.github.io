@@ -49,7 +49,7 @@ hr.star-light:after {
 }
 
 .portfolio-item {
-  height: 260px;
+  height: 260px!important;
 }
 
 section.success {
