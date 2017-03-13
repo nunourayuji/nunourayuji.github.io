@@ -48,9 +48,6 @@ hr.star-light:after {
     background: rgba(192,57,43, .6);
 }
 
-.img-responsive  {
-  height: 260px!important;
-}
 
 section.success {
   background: #e74c3c;
