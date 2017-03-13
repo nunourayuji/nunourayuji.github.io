@@ -37,10 +37,6 @@ hr.star-light:after {
  background: transparent;
 }
 
-.img-responsive {
-  height: 200px!important;
-  width: 100%;
-}
 
 
 #portfolio .portfolio-item .portfolio-link .caption {
