@@ -48,8 +48,8 @@ hr.star-light:after {
     background: rgba(192,57,43, .6);
 }
 
-.portfolio-item {
-  height: 260px!important;
+.img-responsive  {
+  height: 260px;
 }
 
 section.success {
