@@ -48,7 +48,7 @@ hr.star-light:after {
 }
 
 .portfolio-item-size {
-  height: 20em;
+  height: 20em!important;
 }
 
 section.success {
