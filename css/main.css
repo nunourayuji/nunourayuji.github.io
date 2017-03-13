@@ -36,10 +36,11 @@ hr.star-light:after {
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
  background: transparent;
 }
-
-.img-responsive {
-  height: auto;
-  width: 100%;
+.heightSet {
+	max-width: 360px;
+	max-height: 260px;
+	width: auto;
+	height: 260px;
 }
 
 
@@ -47,6 +48,9 @@ hr.star-light:after {
     background: rgba(192,57,43, .6);
 }
 
+#portfolio .portfolio-item {
+  height: 260px;
+}
 
 section.success {
   background: #e74c3c;
