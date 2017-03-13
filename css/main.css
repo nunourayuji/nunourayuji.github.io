@@ -86,36 +86,14 @@ section a {
   border-radius: 10px;
   border: 1px #fff solid;
 }
-.cmn-t-underline:after {
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  width: 0;
-  height: 10px;
-  background-color: #FFF;
-  content: "";
-  transition: width 0.2s;
-}
-.cmn-t-underline:hover {
-  color: #fff;
-}
-.cmn-t-underline:hover:after {
-  width: 100%;
-}
+
+
 
 .cmn-t-contact {
   border: 1px  #e74c3c solid;
   color:  #e74c3c;
 }
 
-.cmn-t-contact:hover {
-  color:  #e74c3c;
-}
-
-.cmn-t-contact:after {
-  background-color:  #e74c3c;
-}
 
 .floating-label-form-group-with-value,
 .floating-label-form-group label {
