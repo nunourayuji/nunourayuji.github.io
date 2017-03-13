@@ -32,6 +32,9 @@ section.success {
   color: #FFF!important;
 }
 
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+  background-color: transparent;
+}
 .active {
   background-color: #c0392b;
 }
