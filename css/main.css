@@ -47,6 +47,9 @@ hr.star-light:after {
     background: rgba(192,57,43, .6);
 }
 
+.portfolio-item-size {
+  height: 20em;
+}
 
 section.success {
   background: #e74c3c;
