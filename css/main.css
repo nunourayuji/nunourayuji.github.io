@@ -7,15 +7,6 @@ header {
   background: #e74c3c;     
 }
 
-.home-header {
-  background: url('https://hd.unsplash.com/photo-1457332253637-21d324d25df9');
-  min-height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-}
 
 
 hr.star-light:after {
@@ -23,9 +14,6 @@ hr.star-light:after {
     color: #fff;
 }
 
-section.success {
-  background-color: #191919;
-}
 
   
  a:hover {
@@ -115,27 +103,27 @@ section a {
 }
 
 .cmn-t-contact {
-  border: 1px #c0392b solid;
-  color: #c0392b;
+  border: 1px  #e74c3c solid;
+  color:  #e74c3c;
 }
 
 .cmn-t-contact:hover {
-  color: #c0392b;
+  color:  #e74c3c;
 }
 
 .cmn-t-contact:after {
-  background-color: #c0392b;
+  background-color:  #e74c3c;
 }
 
 .floating-label-form-group-with-value,
 .floating-label-form-group label {
-  color: #c0392b;
+  color:  #e74c3c;
 }
 
 
 
 a, a.active, a:active, a:focus, a:hover {
-  color: #c0392b;
+  color:  #e74c3c;
   text-decoration: none;
 }
 
