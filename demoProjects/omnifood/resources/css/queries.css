@@ -61,7 +61,7 @@
     .mobile-nav-icon { display: inline-block; }
 
     header {
-        height: auto;
+        background-size: cover;
     }
     
     .main-nav { 
