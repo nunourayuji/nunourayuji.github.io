@@ -59,6 +59,10 @@
     
     .main-nav { display: none; }
     .mobile-nav-icon { display: inline-block; }
+
+    header {
+        height: auto;
+    }
     
     .main-nav { 
         float: left;
