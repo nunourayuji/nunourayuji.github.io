@@ -62,6 +62,8 @@
 
     header {
         background-size: 70%;
+        position: relative;
+        background-repeat: no-repeat;
     }
     
     .main-nav { 
