@@ -61,7 +61,7 @@
     .mobile-nav-icon { display: inline-block; }
 
     header {
-        background-size: 70%;
+        background-size: cover;
         position: relative;
         background-repeat: no-repeat;
     }
