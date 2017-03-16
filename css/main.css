@@ -50,7 +50,7 @@ hr.star-light:after {
 
 
 .portfolio-link img-responsive {
-  max-height: 260px;
+  max-height: 260px!important;
 }
 
 section.success {
