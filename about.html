@@ -10,7 +10,9 @@
 		<!-- BOOTSTRAP -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<!-- MAIN CSS -->
-		<link href="css/main.css" rel="stylesheet">	
+		<link href="css/main.css" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/nav.css" rel="stylesheet">
 		<!-- FONTS -->
 		<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
@@ -30,17 +32,41 @@
 						</div>
 					</div>
 					<!--Nav button-->
-					<span class="menu" onclick="openNav()"> <i class="fa fa-bars"></i></span>
-				<div class="content container fade-in one">
-					<h1>Yuji Nunoura</h1>
-					<span id="webDev"> Web Developer</span>
-						<hr>
-					<a href="mailto:ynunoura22@gmail.com?Subject=inquire" target="_top"><button class="button intro-button">Inquire</button></a>
-					<a href="about.html"><button class="button intro-button-2"> Learn More </button></a>
+				<span class="menu" onclick="openNav()"> <i class="fa fa-bars"></i></span>
+				<!-- MAIN CONTENT -->
+				<div class="content container">
+					<h1> About Me </h1>
+					<hr>
+					<div class="row">
+							<div class="col-lg-4 col-lg-offset-2">
+									<p>
+										I am a freelance developer based in Kyoto, Japan. I've been living here for 3 years working part-time at a night club. Staying in Japan
+									has greatly influenced my work-ethic and determination. Finishing projects on due time, delivering great-quality and effective results are some of the traits
+								that I pursue to possess and promise to deliver.
+									</p>
+							</div>
+							<div class="col-lg-4">
+									<p>
+										I'm addicted to learning new frameworks, programming languages and a whole bunch of other things, which makes me updated to all the new things in the tech industry, giving me the advantage to innovate, do something "cool" or unusual, but effective solutions for my client's projects and requests.
+									<br/>
+										My main goal is to help my clients improve and sky-rocket their businesses through my effective strategy, planning and goal setting mindset.
+									</p>
+							</div>
+					</div>
+					<button class="button intro-button"><a href="mailto:ynunoura22@gmail.com?Subject=inquire" target="_top">Inquire</a></button>
 				</div>
+				<!-- LOADER -->
+        <div class="container">
+          <div id="loader-wrapper">
+            <div id="loader"></div>
+
+            <div class="loader-section section-left"></div>
+                  <div class="loader-section section-right"></div>
+
+          </div>
+        </div>
 		</div>
 	</div>
-
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

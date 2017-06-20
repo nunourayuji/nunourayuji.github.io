@@ -1,137 +1,400 @@
-
-.navbar-default {
-  background-color: #191919;
-  color: #f1f1f1;
-}
-header {
-  background: #e74c3c;     
-}
-
-
-
-hr.star-light:after {
-    background-color: #e74c3c;
-    color: #fff;
+body, html {
+  height: 100%;
+  font-family: 'Space Mono', monospace;
+  color: #EAEAEA;
+  background-color: rgb(20, 20, 20);
+  background-size: cover;
 }
 
-
-  
- a:hover {
-  color: #FFF!important;
+a {
+  color: #EAEAEA;
 }
 
-.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
-  background-color: transparent;
-  border-color:  #e74c3c;
-}
-
-.active {
-  background-color: #c0392b;
-}
-
-.navbar-default {
- background: #2C3E50;
-}
-
-.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
- background: transparent;
-}
-.heightSet {
-	max-width: auto;
-	max-height: 260px;
-	width: 100%;
-	height: 260px;
-}
-
-
-#portfolio .portfolio-item .portfolio-link .caption {
-    background: rgba(192,57,43, .6);
-}
-
-
-.portfolio-link img-responsive {
-  max-height: 260px!important;
-}
-
-section.success {
-  background: #e74c3c;
-}
-
-
-hr.star-primary {
-    border-color: #c0392b;
-}
-/*** PULSE**/
-
-section {
-  margin: 0 auto;
-  text-align: center;
-}
-section:last-child {
-  margin-bottom: 0;
-}
-section a {
-  display: inline-block;
-  font-size: 16px;
-  transition: all 0.2s;
-}
-
-.btn-social .fa {
-  line-height: 45px;
-}
-
-.cmn-t-underline {
-  position: relative;
-  color: #FFF;
-  padding: 10px 40px;
-  background:  transparent;
-  font-weight: 400;
-  font-size: 2em;
-  text-transform: uppercase;
-  border-radius: 10px;
-  border: 1px #fff solid;
-}
-
-
-
-.cmn-t-contact {
-  border: 1px  #e74c3c solid;
-  color:  #e74c3c;
-}
-
-
-.floating-label-form-group-with-value,
-.floating-label-form-group label {
-  color:  #e74c3c;
-}
-
-
-
-a, a.active, a:active, a:focus, a:hover {
-  color:  #e74c3c;
+a:hover {
+  color: #AD974F;
   text-decoration: none;
 }
 
-.active {
-  background-color: transparent;
+a:active {
+  color: #AD974F;
 }
-
-footer .footer-above {
-  background: #cb2d3e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #cb2d3e , #ef473a); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #cb2d3e , #ef473a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
-}
-
-footer .footer-below {
-  background-color: #2C3E50;
-}
-
-
-/** Selector Colors **/
 
 ::selection {
-  background: #2C3E50; /* WebKit/Blink Browsers */
+  background-color: #AD974F;
 }
-::-moz-selection {
-  background: #2C3E50; /* Gecko Browsers */
+
+p {
+  letter-spacing: 1.5px;
+  padding: 10px;
 }
+
+.content {
+  padding-top:10%;
+}
+/*================
+  NAVIGATION
+=================*/
+.brand a {
+    color: #AD974F;
+    top:20px;
+    padding-left: 15px;
+    font-size: 2em;
+    text-decoration: none;
+    position: absolute;
+}
+
+.menu {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  cursor: pointer;
+  color: #AD974F!important;
+  font-size: 2em;
+}
+
+/* Nav style */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.95);
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.overlay a {
+  padding-top: 70px;
+  text-decoration: none;
+  font-size: 65px;
+  color: #EAEAEA;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+
+
+.overlay a:hover, .overlay a:focus {
+    color: #AD974F;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: -70px;
+    right: 10px;
+    font-size: 70px;
+}
+
+
+/*================
+  Basic Styles
+=================*/
+
+.button {
+  padding: 25px 35px;
+  margin: 10px 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.intro-button {
+  background-color: transparent;
+  border: 3px solid #EAEAEA;
+  padding: 25px 50px!important;
+}
+
+.intro-button-2 {
+  background-color: #AD974F;
+  border: none;
+  margin-bottom:
+}
+
+hr {
+  width: 30px;
+  border: 5px solid #AD974F;
+}
+
+h1  {
+  color: #DCD0D0!important;
+}
+
+span {
+  color: #DCD0D0!important;
+}
+
+/*==================
+    Home Styles
+====================*/
+
+.intro {
+  padding-top: 15%;
+
+}
+
+.intro .content {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+
+.intro h1 {
+  font-size: 60px;
+}
+
+#webDev {
+  font-size: 2em;
+}
+
+/*=================
+  CONTACT PAGE
+==================*/
+.contactMail {
+  color: #AD974F;
+}
+
+.social {
+  text-align: left;
+}
+
+.social .fa {
+  font-size: 2.5em;
+  color: #AD974F;
+}
+
+.social li {
+  display: inline-block;
+  list-style: none;
+  padding:  6%;
+}
+
+/*===============
+ WORK PAGE
+ ===============*/
+
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.fade-in.one {
+-webkit-animation-delay: 0.3s;
+-moz-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+
+/*===================
+  PRE LOADER CSS
+====================*/
+
+
+
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #C0B283;
+
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+
+    z-index: 1001;
+}
+
+    #loader:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #F4F4F4;
+
+        -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+        animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+
+    #loader:after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #DCD0C0;
+
+        -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+          animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+
+    @-webkit-keyframes spin {
+        0%   {
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+    @keyframes spin {
+        0%   {
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+
+    #loader-wrapper .loader-section {
+        position: fixed;
+        top: 0;
+        width: 51%;
+        height: 100%;
+        background: #191919;
+        z-index: 1000;
+        -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(0);  /* IE 9 */
+        transform: translateX(0);  /* Firefox 16+, IE 10+, Opera */
+    }
+
+    #loader-wrapper .loader-section.section-left {
+        left: 0;
+    }
+
+    #loader-wrapper .loader-section.section-right {
+        right: 0;
+    }
+
+    /* Loaded */
+    .loaded #loader-wrapper .loader-section.section-left {
+        -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateX(-100%);  /* IE 9 */
+                transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+        -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+                transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    }
+
+    .loaded #loader-wrapper .loader-section.section-right {
+        -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateX(100%);  /* IE 9 */
+                transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+
+-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+        transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    }
+
+    .loaded #loader {
+        opacity: 0;
+        -webkit-transition: all 0.3s ease-out;
+                transition: all 0.3s ease-out;
+    }
+    .loaded #loader-wrapper {
+        visibility: hidden;
+
+        -webkit-transform: translateY(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateY(-100%);  /* IE 9 */
+                transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+        -webkit-transition: all 0.3s 1s ease-out;
+                transition: all 0.3s 1s ease-out;
+    }
+
+    /* JavaScript Turned Off */
+    .no-js #loader-wrapper {
+        display: none;
+    }
+    .no-js h1 {
+        color: #f1f1f1;
+    }
+
+    ::selection {
+      background-color: black;
+      color: white;
+    }
+/*=================
+  MEDIA QUERIES
+==================*/
+@media screen and (min-width: 600px){
+  .intro {
+    padding-top: 10%;
+  }
+
+  .intro h1 {
+    font-size: 90px;
+  }
+
+  #webDev {
+    font-size: 3em;
+  }
+
+  .menu {
+    right: 50px;
+    top: 55px;
+  }
+
+.brand a {
+    left: 50px;
+    top: 55px;
+  }
+
+  .overlay .closebtn {
+      position: absolute;
+      top: -55px;
+      right: 30px;
+      font-size: 80px;
+  }
+
+  .social {
+    text-align: center;
+  }
+
+  .social li {
+    padding:  none;
+  }
